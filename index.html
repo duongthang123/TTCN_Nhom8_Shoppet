@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div class="header">
+            <!-- Header Top -->
+            <div class="header__top">
+                <div class="grid wide">
+                    <div class="header__top-content">
+                        <ul class="header__social-list none__mobile">
+                            <li class="header__social-item">
+                                <a href="" class="header__social-link">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="header__social-item">
+                                <a href="" class="header__social-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="header__social-item">
+                                <a href="" class="header__social-link">
+                                    <i class="fa-brands fa-pinterest-p"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        
+                        <ul class="header__user-list">
+                            <!-- header Search -->
+                            <li class="header__user-item header__search">
+                                <input type="text" class="header__search-input">
+                                <button class="header__search-btn">
+                                    <i class="ti-search"></i>
+                                </button>
+                            </li>
+                            <li class="header__user-item none__mobile">
+                                <a href="" class="header__user-link">
+                                    <i class="header__user-login-icon fa-solid fa-user"></i>
+                                    <a href="login.html" class="header__user-login">Đăng Nhập</a>
+                                </a>
+                            </li>
+                            <li class="header__user-item header__cart">
+                                <a href="Cart.html" class="header__user-link">
+                                    <!-- <i class="ti-shopping-cart header__user-cart-icon"></i> -->
+                                    <i class="header__user-cart-icon fa-solid fa-cart-shopping"></i>
+                                    <!-- <span class="header__user-cart">Cart</span> -->
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__menu">
+                <div class="grid wide">
+                    <div id="header__menu" class="header__menu-content">
+
+                        <a href="index.html" class="header__logo">
+                            <img src="./assets/img/Logo.webp" alt="Logo" class="header__logo-img">
+                        </a>
+
+                        <div id="menu__mobile" class="header__menu_icon none__tablet show__mobile">
+                            <i class="ti-menu"></i>
+                        </div>
+                        
+                        <ul id="header__nav-list" class="header__nav-list ">
+                            <li class="header__nav-item header__nav-item--active">
+                                <a href="index.html" class="header__nav-link ">TRANG CHỦ</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="shopgrid.html" class="header__nav-link">SHOP</a>
+                            </li>
+                            <li class="header__nav-item header__nav-parent">
+                                <a href="#" class="header__nav-link">
+                                    THÚ CƯNG
+                                    <i class="header__nav-icon ti-angle-down"></i>
+                                </a>
+                                <ul class="header__subnav">
+                                    <li class="header__subnav-item">
+                                        <a href="shopDetails.html" class="header__subnav-link">Alaska Malamute</a>
+                                    </li>
+                                    <li class="header__subnav-item">
+                                        <a href="#" class="header__subnav-link">Beagle</a>
+                                    </li>
+                                    <li class="header__subnav-item">
+                                        <a href="#" class="header__subnav-link">Corgi</a>
+                                    </li>
+                                    <li class="header__subnav-item">
+                                        <a href="#" class="header__subnav-link">Golden Retriever</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__nav-item header__nav-parent">
+                                <a href="#" class="header__nav-link">
+                                    DỊCH VỤ
+                                    <i class="header__nav-icon ti-angle-down"></i>
+                                </a>
+                                <ul class="header__subnav">
+                                    <li class="header__subnav-item">
+                                        <a href="#" class="header__subnav-link">Spa</a>
+                                    </li>
+                                    <li class="header__subnav-item">
+                                        <a href="#" class="header__subnav-link">Hotel Pets</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+        </div>
+
+        <div class="container">
+            <div class="grid wide">
+                <div class="row sm-gutter">
+                    <div class="col c-12 m-12 l-12">
+                        <h1 class="content__title">SẢN PHẨM MỚI</h1>
+                        <div class="row sm-gutter">
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="shopgrid.html" class="btn">Xem Thêm >></a>
+                    </div>
+                </div>
+
+                <div class="row sm-gutter">
+                    <div class="col c-12 m-12 l-12">
+                        <h1 class="content__title">SẢN PHẨM NỔI BẬT</h1>
+                        <div class="row sm-gutter">
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="shopgrid.html" class="btn">Xem Thêm >></a>
+                    </div>
+                </div>
+                
+                <div class="row sm-gutter">
+                    <div class="col c-12 m-12 l-12">
+                        <h1 class="content__title">SHOP BÁN CHÓ MÈO CẢNH</h1>
+                        <div class="row sm-gutter">
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/meomeo.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="shopgrid.html" class="btn">Xem Thêm >></a>
+                    </div>
+                </div>
+
+                <div class="row sm-gutter">
+                    <div class="col c-12 m-12 l-12">
+                        <h1 class="content__title">PHỤ KIỆN THÚ CƯNG</h1>
+                        <div class="row sm-gutter">
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/food.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/foodcat.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/food.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col c-6 m-4 l-3">
+                                <div class="content__product">
+                                    <div class="content__product-img">
+                                        <img src="./assets/img/foodcat.jpg" alt="" class="product__img">
+                                        <div class="content__action">
+                                            <div class="content__action_click">
+                                                <i  class="content__action_like ti-heart"></i>
+                                                <i  class="content__action_search ti-search"></i>
+                                            </div>
+                                            <a href="shopDetails.html" class="content__action_btn">Mua Ngay</a>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="content__product_info">
+                                        <div class="content__product_top">
+                                            <h3 class="content__product_id">ID: 12</h3>
+                                            <div class="content__product_star">
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                                <i class="content__product_star-icon ti-star"></i>
+                                            </div>
+                                        </div>
+                                        <a href="" class="content__product_name">POODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTEPOODLE CÁI TRẮNG CUTE</a>
+                                        <h3 class="content__product_price"><span>12.000.000 </span> VNĐ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="shopgrid.html" class="btn">Xem Thêm >></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="paging"></div>
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row sm-gutter">
+                    <div class="col c-12 m-12 l-12">
+                        <div class="row sm-gutter">
+                            <div class="col c-6 m-4 l-3">
+                                <div class="footer__content">
+                                    <h1 class="footer__heading">ANIPET SHOP</h1>
+
+                                    <ul class="footer__list_contact">
+                                        <li class="footer__contact_item">
+                                            <i class="footer__contact_icon ti-location-pin"></i>
+                                            <span class="footer__item_heading">Địa Chỉ:</span> Số 168 Thượng Đình - Thanh Xuân - Hà Nội
+                                        </li>
+
+                                        <li class="footer__contact_item">
+                                            <i class="footer__contact_icon ti-location-pin"></i>
+                                            <span class="footer__item_heading">Địa Chỉ:</span> Số 34 Thượng Đình - Thanh Xuân - Hà Nội
+                                        </li>
+
+                                        <li class="footer__contact_item">
+                                            <i class="footer__contact_icon ti-mobile"></i>
+                                            <span class="footer__item_heading">Điện Thoại:</span> 0939.86.36.96
+                                        </li>
+
+                                        <li class="footer__contact_item">
+                                            <i class="footer__contact_icon ti-email"></i>
+                                            <span class="footer__item_heading">Email:</span> abc@gmail.com
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col c-6 m-4 l-3">
+                                <div class="footer__content">
+                                    <h1 class="footer__heading">Theo Dõi Shop</h1>
+
+                                    <ul class="footer__follow_list">
+                                        <li class="footer__follow_item">
+                                            <a href="" class="footer__follow_link">
+                                                <i class="footer__follow-icon ti-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__follow_item">
+                                            <a href="" class="footer__follow_link">
+                                                <i class="footer__follow-icon ti-youtube"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__follow_item">
+                                            <a href="" class="footer__follow_link">
+                                                <i class="footer__follow-icon ti-instagram"></i>
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col c-6 m-4 l-3">
+                                <div class="footer__content">
+                                    <h1 class="footer__heading">Liên Lạc</h1>
+
+                                    <ul class="footer__list_contact">
+
+                                        <li class="footer__contact_item">
+                                            <i class="footer__contact_icon ti-mobile"></i>
+                                            <span class="footer__item_heading">Điện Thoại:</span> 0939.86.36.96
+                                        </li>
+
+                                        <li class="footer__contact_item">
+                                            <i class="footer__contact_icon ti-email"></i>
+                                            <span class="footer__item_heading">Email:</span> abc@gmail.com
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col c-6 m-4 l-3">
+                                <div class="footer__content">
+                                    <h1 class="footer__heading">Chính Sách & Bảo Mật</h1>
+
+                                    <ul class="footer__list_contact">
+                                        <li class="footer__contact_item">
+                                            <a href="#" class="footer__item_link">Chính sách</a>
+
+                                        <li class="footer__contact_item">
+                                            <a href="#" class="footer__item_link">Quy chế hoạt động</a>
+                                        </li>
+
+                                        <li class="footer__contact_item">
+                                            <a href="#" class="footer__item_link">Trợ giúp</a>
+                                        </li>
+
+                                        <li class="footer__contact_item">
+                                            <a href="#" class="footer__item_link">Tuyển dụng</a>
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="footer__copyright">Copyright ©2023 All rights reserved</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
