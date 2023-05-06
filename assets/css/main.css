@@ -539,7 +539,173 @@ html {
     padding: 0 16px;
 }
 
+.shop__content_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    flex: 1;    
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10px 30px 10px;
+}
 
+.shop__top_lable {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+.shop__select_list {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+}
+
+.shop__top_quantity {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* shop Detail */
+
+.shop__detail_left {
+    text-align: center;
+    background-color: #fdfdfd;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.shop__detail_img {
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.shop__detail_right {
+    margin: 20px;
+}
+
+.shop__detail_name {
+    font-size: 2.4rem;
+    font-family: 'Coiny', cursive;
+    padding: 6px 8px;
+    line-height: 2.6rem;
+}
+
+.shop__detail_price {
+    font-size: 1.8rem;
+    font-family: 'Coiny', cursive;
+    color: var(--primary-color);
+    padding: 6px 8px;
+}
+
+.shop__detail_quantity {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.shop__detail_quantity label {
+    font-weight: 520;
+    padding: 4px 0;
+    color: #333333;
+}
+
+.quantity{
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop__detail_input {
+    width: 60px;
+    text-align: center;
+    height:28px ;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 4px 2px;
+}
+
+.qtybtn {
+    width:50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 3px 6px;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 3rem;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.qtybtn.inc {
+        line-height: 2rem;
+
+}
+
+.qtybtn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.shop__detail_btn {
+    margin: 8px 0;
+}
+
+.shop__detail_idproduct,
+.shop__detail_statusproduct,
+.shop__detail_cateproduct {
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 8px;
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+.shop__deatil_des {
+    margin: 20px 4px;
+}
+
+.shop__deatil_des {
+    padding: 6px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+}
+
+.shop__detail_des-content {
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 4px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.shop__deatil_bottom {
+    margin: 20px 4px 0 4px;
+
+}
+
+.shop__deatil_bottom-title {
+    padding: 6px 8px;
+    font-family: 'Coiny', cursive;
+    font-size: 2.4rem;
+        line-height: 2.4rem;
+
+}
 
 /* Cart */
 
@@ -788,7 +954,64 @@ html {
 }
 
 /* Loggin */
+.login__title {
+    padding: 0 2px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 
+}
+
+.error {
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+    padding:2px 12px;
+    font-size: 1.4rem;
+}
+
+
+.error p {
+    padding: 0;
+    margin: 0;
+}
+
+.login_check {
+    margin: 0 6px;
+
+}
+.login__remember {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 12px;
+}
+
+.login__btn {
+    margin: 20px auto;
+    min-width: 140px;
+    line-height: 36px;
+    padding: 6px 8px;
+    font-family: 'Coiny', cursive;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0px 5px 1px #545454;
+}
+
+.login__link {
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 8px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    margin: 4px 0 4px 10px;
+}
+
+.login__link a {
+    color: blue;
+}
 /* Model */
 
 .model {
